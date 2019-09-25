@@ -1,0 +1,168 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+}
+body
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+ul
+{
+	float: right;
+	margin-top: 65px;
+	margin-right:600px;
+}
+ul li
+{
+	display: inline-block;
+}	
+ul li a
+{
+	font-size: 17px;
+	text-decoration: none;
+	color:#ffffff;
+	padding: 5px 20px;
+	transition: 1s ease;
+}
+ul li a:hover
+{
+	background-color: #ffffff;;
+	color: #000000;
+	 border-radius: 25px;
+}
+.logo img
+{
+	margin-top: 20px;
+	width: 150px;
+	height: auto;
+	float: left;
+	margin-left:600px;
+}
+ul li a.signin
+{
+	font-size: 17px;
+	text-decoration: none;
+	color:#000000;
+	 border-radius: 25px;
+	background-color: #65EFFF;
+	padding: 5px 20px;
+	transition: 1s ease;
+}
+ul li a.signin:hover
+{
+	background-color: #ffffff;;
+	color: #000000;
+}
+h1
+{
+	font-family: Handlee;
+	color: #ffffff;
+	font-size: 100px;
+	positioning: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-70px,375px);
+}
+form
+{
+	font-family: Handlee;
+	color: #ffffff;
+	font-size:30px;
+	transform: translate(800px,150px);
+}
+h1.signup
+{
+	font-family: Handlee;
+	color: #ffffff;
+	font-size: 100px;
+	positioning: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(100px,110px);
+}
+#ip2 
+{
+    border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 500px;
+    height: 15px;    
+}
+#ip3
+{
+	 border-radius: 25px;
+    border: 2px solid #609;
+    padding: 20px; 
+    width: 150px;
+    height: auto;   
+background-color: #65EFFF;
+	font-family: Arial;
+	font-size: 20px;
+	transform: translate(0px,-5px);
+	vertcal-align: middle;
+}
+#ip5
+{
+	border-radius: 25px;
+    	border: 2px solid #609;
+    	padding: 20px; 
+    	width: 500px;
+    	height: 200px;    
+}
+}
+ul li a.green
+{
+	font-size: 17px;
+	text-decoration: none;
+	color:#000000;
+	background-color: #32A03C;
+	padding: 5px 20px;
+	transition: 1s ease;
+}
+h3
+{
+	font-family: Handlee;
+	color: #ffffff;
+	transform: translate(750px,500px);
+}
+h1.about
+{
+	font-family: Handlee;
+	color: #ffffff;
+	font-size: 60px;
+	positioning: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-350px,200px);
+}
+h3.best
+{
+	font-family: Handlee;
+	color: #ffffff;
+	font-size: 40px;
+	transform: translate(500px,400px);
+}
+#ip4
+{
+	 border-radius: 25px;
+    border: 2px solid #32A03C;
+    padding: 20px; 
+    width: 200px;
+    height: auto;   
+background-color: #32A03C;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 20px;
+	transform: translate(850px,450px);
+	vertcal-align: middle;
+}
+p
+{
+	font-family: Handlee;
+	font-size: 30px;
+	color: white;
+	transform: translate(275px,200px);
+}
