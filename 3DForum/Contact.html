@@ -2,6 +2,26 @@
 	<head>
 		<title> Contact </title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			function validateForm() 
+			{
+ 				 var x = document.forms["contact"]["username"].value;
+ 				 if (x == "") 
+				{
+ 					alert("email must be filled out");
+					document.getElementById("username").focus();
+   				                  return false;
+ 				 }
+				 var y = document.forms["contact"]["textbox"].value;
+ 				 if (y == "") 
+				{
+ 					alert("Write your query");
+					document.getElementById("textbox").focus();
+   				                  return false;
+ 				 }
+				 
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -21,11 +41,11 @@
 				<h1 class="signup"> Contact </h1>
 			</div>
 		</header>
-		<form>
+		<form name="contact" onsubmit="return validateForm()" method="post">
 			Email <br><br>
 			<input type="text" name="username" id="ip2"><br><br>
 			Query<br><br>
-			<input type="textboxbox" name="textbox" id="ip5"><br><br>
+			<input type="textbox" name="textbox" id="ip5"><br><br>
 			<input type="submit" value="SUBMIT" id="ip3">
 		</form>
 	</body>
