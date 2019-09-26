@@ -2,6 +2,25 @@
 	<head>
 		<title> Sign In </title>
 		<link rel="stylesheet" type="text/css" href="style.css">
+		<script>
+			function validateForm() 
+			{
+ 				 var x = document.forms["signin"]["username"].value;
+ 				 if (x == "") 
+				{
+ 					alert("username/email must be filled out");
+					document.getElementById("username").focus();
+   				                  return false;
+ 				 }
+				 var y = document.forms["signin"]["password"].value;
+ 				 if (y == "") 
+				{
+ 					alert("Password must be filled out");
+					document.getElementById("password").focus();
+   				                  return false;
+ 				 }
+			}
+		</script>
 	</head>
 	<body>
 		<header>
@@ -21,7 +40,7 @@
 				<h1 class="signup"> Sign In </h1>
 			</div>
 		</header>
-		<form>
+		<form name="signin" onsubmit="return validateForm()" method="post">
 			Username/Email <br><br>
 			<input type="text" name="username" id="ip2"><br><br>
 			Password<br><br>
